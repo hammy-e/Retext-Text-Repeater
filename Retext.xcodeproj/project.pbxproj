@@ -7,16 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		332EF3742666FF0C003216F1 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332EF3732666FF0C003216F1 /* MainTabBarController.swift */; };
+		332EF3762667016A003216F1 /* SavedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332EF3752667016A003216F1 /* SavedViewController.swift */; };
+		332EF37926670742003216F1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332EF37826670742003216F1 /* Constants.swift */; };
+		332EF37B26670AFB003216F1 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332EF37A26670AFB003216F1 /* CustomTextField.swift */; };
+		332EF37D26670B08003216F1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332EF37C26670B08003216F1 /* Extensions.swift */; };
 		335B566C2666FD2600793C2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335B566B2666FD2600793C2C /* AppDelegate.swift */; };
 		335B566E2666FD2600793C2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335B566D2666FD2600793C2C /* SceneDelegate.swift */; };
 		335B56702666FD2600793C2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335B566F2666FD2600793C2C /* ViewController.swift */; };
 		335B56732666FD2600793C2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335B56712666FD2600793C2C /* Main.storyboard */; };
 		335B56752666FD2600793C2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 335B56742666FD2600793C2C /* Assets.xcassets */; };
 		335B56782666FD2600793C2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 335B56762666FD2600793C2C /* LaunchScreen.storyboard */; };
+		335B56832666FD6600793C2C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 335B56822666FD6600793C2C /* HomeViewController.swift */; };
+		3374579526675E28006AE0FB /* StringRepeater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374579426675E28006AE0FB /* StringRepeater.swift */; };
+		337457972667667E006AE0FB /* RetextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337457962667667E006AE0FB /* RetextCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		335B56682666FD2600793C2C /* DupeText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DupeText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		332EF3732666FF0C003216F1 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		332EF3752667016A003216F1 /* SavedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedViewController.swift; sourceTree = "<group>"; };
+		332EF37826670742003216F1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		332EF37A26670AFB003216F1 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		332EF37C26670B08003216F1 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		335B56682666FD2600793C2C /* Retext.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Retext.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		335B566B2666FD2600793C2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		335B566D2666FD2600793C2C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		335B566F2666FD2600793C2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +37,9 @@
 		335B56742666FD2600793C2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		335B56772666FD2600793C2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		335B56792666FD2600793C2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		335B56822666FD6600793C2C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3374579426675E28006AE0FB /* StringRepeater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringRepeater.swift; sourceTree = "<group>"; };
+		337457962667667E006AE0FB /* RetextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetextCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,10 +53,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		332EF37726670727003216F1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				332EF37C26670B08003216F1 /* Extensions.swift */,
+				332EF37826670742003216F1 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		335B565F2666FD2600793C2C = {
 			isa = PBXGroup;
 			children = (
-				335B566A2666FD2600793C2C /* DupeText */,
+				335B566A2666FD2600793C2C /* Retext */,
 				335B56692666FD2600793C2C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,14 +73,18 @@
 		335B56692666FD2600793C2C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				335B56682666FD2600793C2C /* DupeText.app */,
+				335B56682666FD2600793C2C /* Retext.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		335B566A2666FD2600793C2C /* DupeText */ = {
+		335B566A2666FD2600793C2C /* Retext */ = {
 			isa = PBXGroup;
 			children = (
+				335B56812666FD5B00793C2C /* Model */,
+				335B56802666FD5700793C2C /* View */,
+				335B567F2666FD5200793C2C /* Controller */,
+				332EF37726670727003216F1 /* Utils */,
 				335B566B2666FD2600793C2C /* AppDelegate.swift */,
 				335B566D2666FD2600793C2C /* SceneDelegate.swift */,
 				335B566F2666FD2600793C2C /* ViewController.swift */,
@@ -64,15 +93,42 @@
 				335B56762666FD2600793C2C /* LaunchScreen.storyboard */,
 				335B56792666FD2600793C2C /* Info.plist */,
 			);
-			path = DupeText;
+			path = Retext;
+			sourceTree = "<group>";
+		};
+		335B567F2666FD5200793C2C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				332EF3732666FF0C003216F1 /* MainTabBarController.swift */,
+				335B56822666FD6600793C2C /* HomeViewController.swift */,
+				332EF3752667016A003216F1 /* SavedViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		335B56802666FD5700793C2C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				337457962667667E006AE0FB /* RetextCell.swift */,
+				332EF37A26670AFB003216F1 /* CustomTextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		335B56812666FD5B00793C2C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3374579426675E28006AE0FB /* StringRepeater.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		335B56672666FD2600793C2C /* DupeText */ = {
+		335B56672666FD2600793C2C /* Retext */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 335B567C2666FD2600793C2C /* Build configuration list for PBXNativeTarget "DupeText" */;
+			buildConfigurationList = 335B567C2666FD2600793C2C /* Build configuration list for PBXNativeTarget "Retext" */;
 			buildPhases = (
 				335B56642666FD2600793C2C /* Sources */,
 				335B56652666FD2600793C2C /* Frameworks */,
@@ -82,9 +138,9 @@
 			);
 			dependencies = (
 			);
-			name = DupeText;
+			name = Retext;
 			productName = DupeText;
-			productReference = 335B56682666FD2600793C2C /* DupeText.app */;
+			productReference = 335B56682666FD2600793C2C /* Retext.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +157,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 335B56632666FD2600793C2C /* Build configuration list for PBXProject "DupeText" */;
+			buildConfigurationList = 335B56632666FD2600793C2C /* Build configuration list for PBXProject "Retext" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +170,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				335B56672666FD2600793C2C /* DupeText */,
+				335B56672666FD2600793C2C /* Retext */,
 			);
 		};
 /* End PBXProject section */
@@ -137,9 +193,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				332EF3762667016A003216F1 /* SavedViewController.swift in Sources */,
+				332EF37D26670B08003216F1 /* Extensions.swift in Sources */,
+				3374579526675E28006AE0FB /* StringRepeater.swift in Sources */,
 				335B56702666FD2600793C2C /* ViewController.swift in Sources */,
 				335B566C2666FD2600793C2C /* AppDelegate.swift in Sources */,
+				332EF3742666FF0C003216F1 /* MainTabBarController.swift in Sources */,
+				332EF37B26670AFB003216F1 /* CustomTextField.swift in Sources */,
+				332EF37926670742003216F1 /* Constants.swift in Sources */,
 				335B566E2666FD2600793C2C /* SceneDelegate.swift in Sources */,
+				337457972667667E006AE0FB /* RetextCell.swift in Sources */,
+				335B56832666FD6600793C2C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +280,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +335,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -286,17 +350,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25SF3B4Q42;
-				INFOPLIST_FILE = DupeText/Info.plist;
+				INFOPLIST_FILE = Retext/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.aestrada1290.DupeText;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hammy1290.Retext;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -305,24 +371,26 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 25SF3B4Q42;
-				INFOPLIST_FILE = DupeText/Info.plist;
+				INFOPLIST_FILE = Retext/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.aestrada1290.DupeText;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hammy1290.Retext;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		335B56632666FD2600793C2C /* Build configuration list for PBXProject "DupeText" */ = {
+		335B56632666FD2600793C2C /* Build configuration list for PBXProject "Retext" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				335B567A2666FD2600793C2C /* Debug */,
@@ -331,7 +399,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		335B567C2666FD2600793C2C /* Build configuration list for PBXNativeTarget "DupeText" */ = {
+		335B567C2666FD2600793C2C /* Build configuration list for PBXNativeTarget "Retext" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				335B567D2666FD2600793C2C /* Debug */,

@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  DupeText
+//  Retext
 //
 //  Created by Abraham Estrada on 6/1/21.
 //

@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  DupeText
+//  Retext
 //
 //  Created by Abraham Estrada on 6/1/21.
 //
@@ -13,7 +13,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
         return true
     }
 
